@@ -1,0 +1,628 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.background {
+    width: 1320px;
+    height: 1080px;
+    background:#06415ee5;
+    position: relative;
+    margin: 0 auto;
+    
+} 
+         /* left design start*/
+.left {
+    height: 1000px;
+    width: 300px;
+    background: #053750;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    float: left;
+    border-radius: 50rem;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 0px;
+    box-shadow:3px 3px 15px 0px;
+    z-index: 9;
+}
+.left-one {
+    height: 300px;
+    width: 300px;
+}
+.image {
+    height: 250px;
+    width: 250px;
+    background: url(../images/1.jpg) center;
+    border-radius: 50%;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.circle {
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+          /* text design start */
+
+.contact {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    letter-spacing: 6px;
+}
+              /* icon start*/
+
+.fa {
+    height: 50px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    left: 5px;
+}
+.fa-envelope {
+    height: 50px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: 5px;
+}
+.fa-phone-square {
+    height: 50px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 134px;
+    left: 5px;
+}
+
+              /* icon end*/
+.left-two {
+    height: 185px;
+    width: 300px;
+    position: absolute;
+    background: #042c41;
+} 
+.country {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    position: absolute;
+    left: 50px;
+    top: 60px;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: orange;
+}
+.mail {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    position: absolute;
+    left: 50px;
+    top: 95px; 
+} 
+.phone {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    position: absolute;
+    left: 50px;
+    top: 130px;
+}
+
+.left-three {
+    height: 185px;
+    width: 300px;
+    position: absolute;
+    background: #032233;
+    top: 485px;
+}
+.language {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    letter-spacing: 6px;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.bangla {
+   left: 20px;
+   top: 60px;
+   position: absolute;
+   font-weight: lighter;
+} 
+.english {
+    left: 20px;
+    top: 95px;
+    position: absolute;
+    font-weight: lighter;
+}           
+.hindi {
+    left: 20px;
+   top: 130px;
+   position: absolute;
+   font-weight: lighter;
+}
+
+           /* for bangla language start icon start  */
+
+.fa-star {
+    position: absolute;
+    top: 65px;
+    left: 72px;
+}
+.fa-3 {
+    position: absolute;
+    top: 65px;
+    left: 95px;  
+}
+.fa-4 {
+    position: absolute;
+    top: 65px;
+    left: 118px;  
+}
+.fa-5 {
+    position: absolute;
+    top: 65px;
+    left: 141px;  
+}
+.fa-6 {
+    position: absolute;
+    top: 65px;
+    left: 164px;  
+
+        /* for bangla language start icon end  */
+}
+       /* for english language start icon start  */
+
+.fa-7 {
+    position: absolute;
+    top: 99px;
+    left: 72px;
+}
+.fa-8 {
+    position: absolute;
+    top: 99px;
+    left: 95px;  
+}
+.fa-9 {
+    position: absolute;
+    top: 99px;
+    left: 118px;  
+}
+.fa-10 {
+    position: absolute;
+    top: 99px;
+    left: 141px;  
+}
+.fa-star-o {
+    position: absolute;
+    top: 99px;
+    left: 164px;  
+}
+    
+         /* for english language start icon end  */
+
+         /* for hindi  language star icon start  */
+
+.fa-11 {
+    position: absolute;
+    top: 133px;
+    left: 72px;
+}
+.fa-12 {
+    position: absolute;
+    top: 133px;
+    left: 95px;  
+}
+.fa-13 {
+    position: absolute;
+    top: 133px;
+    left: 118px;  
+}
+.fa-star-1 {
+    position: absolute;
+    top: 133px;
+    left: 141px;  
+}
+.fa-star-2 {
+    position: absolute;
+    top: 133px;
+    left: 164px;  
+}   
+            /* for hindi  language star icon end  */ 
+             
+
+.left-four {
+    height: 185px;
+    width: 300px;
+    position: absolute;
+    background: #021824;
+    top: 670px;
+}
+.skill {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    letter-spacing: 6px;
+}
+.skill-1 {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    position: absolute;
+    left: 20px;
+    top: 60px;
+    text-align: center;
+}
+
+           /* graphic design skill star icon start */
+
+.fa-14 {
+    position: absolute;
+    top: 65px;
+    left: 153px;  
+}
+.fa-15 {
+    position: absolute;
+    top: 65px;
+    left: 176px;  
+}
+.fa-16 {
+    position: absolute;
+    top: 65px;
+    left: 199px;  
+}
+.fa-17 {
+    position: absolute;
+    top: 65px;
+    left: 222px;  
+}
+.fa-star-3 {
+    position: absolute;
+    top: 65px;
+    left: 245px;  
+}
+
+           /*graohic design skill star icon end */
+
+.skill-2 {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    position: absolute;
+    left: 20px;
+    top: 95px;
+    text-align: center;
+} 
+        /* web design skill star icon start */
+.fa-18 {
+    position: absolute;
+    top: 99px;
+    left: 153px;  
+}
+.fa-19 {
+    position: absolute;
+    top: 99px;
+    left: 176px;  
+}
+.fa-20 {
+    position: absolute;
+    top: 99px;
+    left: 199px;  
+}
+.fa-21 {
+    position: absolute;
+    top: 99px;
+    left: 222px;  
+}
+.fa-star-4 {
+    position: absolute;
+    top: 99px;
+    left: 245px;  
+}   
+         /* web design skill star icon end */
+
+.skill-3 {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    position: absolute;
+    left: 20px;
+    top: 130px;
+    text-align: center;
+}
+
+         /* ui/ux skill star icon start */
+
+.fa-23 {
+    position: absolute;
+    top: 133px;
+    left: 153px;
+}
+.fa-24 {
+    position: absolute;
+    top: 133px;
+    left: 176px;
+}
+.fa-star-5 {
+    position: absolute;
+    top: 133px;
+    left: 199px;  
+}
+.fa-star-6 {
+    position: absolute;
+    top: 133px;
+    left: 222px;  
+}
+.fa-star-7 {
+    position: absolute;
+    top: 133px;
+    left: 245px;  
+} 
+
+         /* ui/ux skill star icon end */
+
+.left-five {
+    height: 145px;
+    width: 300px;
+    position: absolute;
+    background: #02121b;
+    border-bottom-left-radius: 55px;
+    top: 855px;
+} 
+.hobbies {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    letter-spacing: 6px;
+}
+.hobbies-list-1 {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    position: absolute;
+    left: 37px;
+    top: 60px; 
+}        
+.hobbies-list-2 {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    position: absolute;
+    left: 160px;
+    top: 60px; 
+}
+.hobbies-1{
+display: inline-block;
+font-family: 'Open Sans', sans-serif;
+color: white;
+font-weight: lighter;
+position: absolute; 
+}
+h4 {
+    font-weight: lighter;  
+}       
+
+          /* text design end */
+
+        /* left design end*/
+
+
+        /* right design start*/
+
+.right {
+    height: 1000px;
+    width: 1000px;
+    background: rgb(224, 223, 223);
+    position: relative;
+    float: left;
+    top: 50px;
+    left: -80px; 
+    z-index: 0;
+    box-shadow:1px 0px 15px 0px;
+}
+.right-design {
+    width: 850px;
+    height: 1000px;
+    /* background:blue; */
+    float: right;
+    position: relative;
+}
+.right-design-1 {
+    width: 850px;
+    height: 250px;
+    /* background:rgb(229, 255, 0); */
+    float: right;
+    position: absolute;
+}
+.name {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    color: #053750;
+    font-size: 45px;
+    top: 20px;
+    left: 30px;
+}
+.tagline {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    position: absolute;
+    font-weight: lighter;
+    left: 30px;
+    top: 70px;
+    letter-spacing: 2px;
+}
+.career {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    position: absolute;
+    left: 30px;
+    top: 125px;
+    text-align: left;
+}
+
+.right-design-2 {
+    width: 850px;
+    height: 620px;
+    /* background:rgb(138, 2, 131); */
+    float: right;
+    position: absolute;
+    top: 250px;
+}
+.education-design {
+    width: 840px;
+    height: 60px;
+    background: #053750;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 50px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow:3px 3px 8px 0px;
+}
+.education {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    left: 30px;
+    top: 22px;
+    letter-spacing: 8px;
+}
+             /* education qualifiction start  */
+
+.bsc{
+    width: 820px;
+    height: 165px;
+    position: absolute;
+    left: 30px;
+    top: 90px;
+    /* background: green;     */
+}
+.edu-font {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: black;
+}
+
+.hsc {
+    width: 820px;
+    height: 195px;
+    position: absolute;
+    left: 30px;
+    top: 255px;
+    /* background: yellow; */
+}
+.ssc {
+    width: 820px;
+    height: 175px;
+    position: absolute;
+    left: 30px;
+    top: 445px;
+    /* background: red; */
+}
+           /* text design start */
+u {
+    text-decoration: none;
+    font-weight: bolder;
+}
+.colon {
+    position: absolute;
+    left: 150px;
+}
+.text-align {
+    position: absolute;
+    left: 200px;
+}
+
+         /* text design end */
+
+             /* education qualifiction end  */
+
+
+             /* social link design start */
+
+    .right-design-three {
+    width: 850px;
+    height: 130px;
+    /* background:rgb(229, 255, 0); */
+    float: right;
+    position: absolute;
+    top: 870px;
+    }
+    
+             /* social link design end */
+
+            /* shape design start */
+
+.shape-design-1 {
+    width: 10px;
+    height: 1000px;
+    background: rgb(224, 223, 223);
+    position: absolute;
+    top: 50px;
+    left: 1230px;
+    box-shadow:3px 3px 5px 0px;
+}
+.shape-design-2 {
+    width: 30px;
+    height: 1000px;
+    background: rgb(224, 223, 223);
+    position: absolute;
+    top: 50px;
+    left: 1250px;
+    box-shadow:3px 3px 5px 0px;
+}
+
+            /* shape design end */
+
+        /* right design end*/
